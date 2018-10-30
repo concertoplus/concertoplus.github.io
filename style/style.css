@@ -1,0 +1,22 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+#plate{
+	position: relative;
+	width: 600px;
+	height: 600px;
+	border-radius: 300px;
+	background-color: #6cf;
+	margin: 0 auto;
+	margin-top: 20%;
+}
+#ball{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background-color: black;
+	border-radius: 15px;
+	top: 50%;
+	left: 50%;
+}
