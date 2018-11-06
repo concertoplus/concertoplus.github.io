@@ -1,32 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>运动传感器</title>
-	<meta charset="utf-8">
-	<style type="text/css">
-	.garden {
-		position: relative;
-		width : 200px;
-		height: 200px;
-		border: 5px solid #CCC;
-		border-radius: 10px;
-	}
-	.ball {
-		position: absolute;
-		top   : 90px;
-		left  : 90px;
-		width : 20px;
-		height: 20px;
-		background: green;
-		border-radius: 100%;
-	}
-	</style>
+	<title>锦鲤</title>
+	<meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
-	<div class="garden">
-		<div class="ball"></div>
+	<div id="firstPage">
+		<p>这是文案</p>
+		<button id="buttonStart">点击捕捉你的双十一锦鲤</button>
 	</div>
-	<pre class="output"></pre>
-	<script type="text/javascript" src="script/script.js"></script>
+	<div id="canvasBox">
+		<canvas id="canvas">您的浏览器不支持canvas</canvas>
+	</div>
+	<script type="text/javascript" src="scripts/jQuery.js"></script>
+	<script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
