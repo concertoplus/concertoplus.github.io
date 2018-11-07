@@ -3,7 +3,14 @@ $("#buttonStart").click(function(){
 		$("#canvasBox").show();
 		draw();
 });
-var newImg;
+var imageSrc;
+function random(){
+	var flag = parseInt(Math.random()*7);
+	console.log(flag);
+	var imageList = ["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg",]
+	imageSrc = "images/"+imageList[flag];
+}
+random();
 function draw() {
 	var canvas = document.getElementById('canvas');
 	if (canvas.getContext){
@@ -13,24 +20,12 @@ function draw() {
 	canvas.width = canvasBox.clientWidth;
 	canvas.height = canvasBox.clientHeight;
 	var img = new Image(); 
-	img.src = "images/03.jpg";
+	img.src = imageSrc;
 	img.onload = function(){
 		var w = canvas.height*img.width/img.height;
 		ctx.drawImage(img, (canvas.width-w)/2, 0, w, canvas.height);
 		ctx.font="48px serif";
 		ctx.fillText("今天的肚子也好饿",-10,100);
-		var mark = new Image();
-		mark.src = "images/04.png";
-		mark.onload = function(){
-			ctx.drawImage(mark, (canvas.width)/2, canvas.height/2, w/2, w/2);
-			newImg = canvas.toDataURL();
-			setDownload();
-		}
 	};
 }
-function setDownload(){
-	$("#download").attr("href",newImg);
-}
-
-
 
