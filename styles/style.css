@@ -22,3 +22,10 @@ html,body,#firstPage{
 	height: 100%;
 	overflow: hidden;
 }
+#download{
+	display: block;
+	position: absolute;
+	bottom: 10%;
+	width: 100px;
+	height: 30px;
+}
