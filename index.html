@@ -3,6 +3,7 @@
 <head>
 	<title>锦鲤</title>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
@@ -10,10 +11,32 @@
 		<p>这是文案</p>
 		<button id="buttonStart">点击捕捉你的双十一锦鲤</button>
 	</div>
-	<div id="canvasBox">
-		<canvas id="canvas">您的浏览器不支持canvas</canvas>
+	<div class="box">
+		<img class="headImg" >
+		<img class="radus" src="images/radus.png">
+		<img class="light" src="images/light.png">
+		<img id ="showButton" src="images/showButton.png">
 	</div>
+	<div id="showBox">
+		<div class="box" id="downloadBox">
+			<img id="boxBgi">
+			<img class="headImg" >
+			<img class="radus" src="images/radus.png">
+			<img class="light" src="images/light.png">
+		</div>
+		<img id="myIMG">
+		<p>长按保存图片</p>
+	</div>
+	</div>
+	<script type="text/javascript" src="scripts/html2canvas.min.js"></script>
 	<script type="text/javascript" src="scripts/jQuery.js"></script>
+	<script type="text/javascript" src="scripts/html2canvas.min.js"></script>
+	<script type="text/javascript">
+	//	var headImgJson = <?= $userinfo_json ?>;
+	//	var headImgUrl=/*突然发现我不知道域名是什么*/ headImgJson.headimgurl.slice(23);
+	//	console.log(headImgUrl);
+		$(".headImg").prop("src","images/headImage.png");
+	</script>
 	<script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>
