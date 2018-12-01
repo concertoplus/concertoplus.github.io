@@ -1,42 +1,372 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>锦鲤</title>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>学线养成计划</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+	/*a:link {color: inherit;} 
+	a:visited {color: inherit;}
+	a:hover {color: #FF7F50} 
+	a:active {color: #DC143C}*/
+	</style>
 </head>
 <body>
-	<div id="firstPage">
-		<p>这是文案</p>
-		<button id="buttonStart">点击捕捉你的双十一锦鲤</button>
-	</div>
-	<div class="box">
-		<img class="headImg" >
-		<img class="radus" src="images/radus.png">
-		<img class="light" src="images/light.png">
-		<img id ="showButton" src="images/showbutton.png">
-	</div>
-	<div id="showBox">
-		<div class="box" id="downloadBox">
-			<img id="boxBgi">
-			<img class="headImg" >
-			<img class="radus" src="images/radus.png">
-			<img class="light" src="images/light.png">
+	<div id="cover">
+		<img id="back" src="image/background1.png">
+		<div id="icon">
+			<img src="image/icon.png">
 		</div>
-		<img id="myIMG">
-		<p>长按保存图片</p>
 	</div>
+	<div id="page1">
+		<img src="image/background2.png">
+		<div id="text011">
+			<img src="image/text011.png">
+		</div>
+		<div id="icon011">
+			<img src="image/icon011.png">
+		</div>
 	</div>
-	<script type="text/javascript" src="scripts/html2canvas.min.js"></script>
-	<script type="text/javascript" src="scripts/jQuery.js"></script>
-	<script type="text/javascript" src="scripts/html2canvas.min.js"></script>
-	<script type="text/javascript">
-	//	var headImgJson = <?= $userinfo_json ?>;
-	//	var headImgUrl=/*突然发现我不知道域名是什么*/ headImgJson.headimgurl.slice(23);
-	//	console.log(headImgUrl);
-		$(".headImg").prop("src","images/headImage.png");
-	</script>
-	<script type="text/javascript" src="scripts/script.js"></script>
+	<div id="page2">
+		<img src="image/background2.png">
+		<div id="text021">
+			<img src="image/text021.png">
+		</div>
+		<div id="icon021">
+			<img src="image/icon021.png">
+		</div>
+		<div id="icon022">
+			<img src="image/icon022.png">
+		</div>
+		<div id="icon023">
+			<img src="image/icon023.png">
+		</div>
+		<div id="icon024">
+			<img src="image/icon024.png">
+		</div>
+		<div id="icon025">
+			<img src="image/icon025.png">
+		</div>
+		<div id="icon026">
+			<img src="image/icon026.png">
+		</div>
+	</div>
+	<div id="page3">
+		<img src="image/background3.png">
+		<div id="text031">
+			<img src="image/text031.png">
+		</div>
+		<div id="text032">
+			<img src="image/text032.png">
+		</div>
+		<div id="text033">
+			<img src="image/text033.png">
+		</div>
+		<div id="text034">
+			<img src="image/text034.png">
+		</div>
+		<div id="icon031">
+			<img src="image/icon031.png">
+		</div>
+		<div id="icon032">
+			<img src="image/icon032.png">
+		</div>
+		<div id="icon033">
+			<img src="image/icon033.png">
+		</div>
+	</div>
+	<div id="page4">
+		<img src="image/background4.png">
+		<div id="text041">
+			<img src="image/text041.png">
+		</div>
+		<div id="text042">
+			<img src="image/text042.png">
+		</div>
+		<div id="text043">
+			<img src="image/text043.png">
+		</div>
+		<div id="icon041">
+			<img src="image/icon041.png">
+		</div>
+		<div id="icon042">
+			<img src="image/icon032.png">
+		</div>
+		<div id="icon043">
+			<img src="image/icon043.png">
+		</div>
+	</div>
+	<div id="page5">
+		<img src="image/background4.png">
+		<div id="text051">
+			<img src="image/text051.png">
+		</div>
+		<div id="text052">
+			<img src="image/text052.png">
+		</div>
+		<div id="text053">
+			<img src="image/text053.png">
+		</div>
+		<div id="icon051">
+			<img src="image/icon051.png">
+		</div>
+		<div id="icon052">
+			<img src="image/icon032.png">
+		</div>
+		<div id="icon053">
+			<img src="image/icon043.png">
+		</div>
+	</div>
+	<div id="page6">
+		<img src="image/background5.png">
+		<div id="text061">
+			<img src="image/text061.png">
+		</div>
+		<div id="text062">
+			<img src="image/text062.png">
+		</div>
+		<div id="text063">
+			<img src="image/text063.png">
+		</div>
+		<div id="icon061">
+			<img src="image/icon061.png">
+		</div>
+		<div id="icon062">
+			<img src="image/icon032.png">
+		</div>
+		<div id="icon063">
+			<img src="image/icon033.png">
+		</div>
+	</div>
+	<div id="page7">
+		<img src="image/background4.png">
+		<div id="text071">
+			<img src="image/text071.png">
+		</div>
+		<div id="text072">
+			<img src="image/text072.png">
+		</div>
+		<div id="text073">
+			<img src="image/text073.png">
+		</div>
+		<div id="icon071">
+			<img src="image/icon071.png">
+		</div>
+		<div id="icon072">
+			<img src="image/icon032.png">
+		</div>
+		<div id="icon073">
+			<img src="image/icon043.png">
+		</div>
+	</div>
+	<div id="page8">
+		<img src="image/background2.png">
+		<div id="text081">
+			<img src="image/text081.png">
+		</div>
+		<div id="icon081">
+			<img src="image/icon081.png">
+		</div>
+		<div id="icon082">
+			<img src="image/icon082.png">
+		</div>
+		<div id="icon083">
+			<img src="image/icon083.png">
+		</div>
+		<div id="icon084">
+			<img src="image/icon084.png">
+		</div>
+		<div id="icon085">
+			<img src="image/icon085.png">
+		</div>
+	</div>
+	<div id="page9">
+		<img src="image/background2.png">
+		<div id="text091">
+			<img src="image/text091.png">
+		</div>
+		<div id="text092">
+			<img src="image/text092.png">
+		</div>
+		<div id="text093">
+			<img src="image/text093.png">
+		</div>
+		<div id="text094">
+			<img src="image/text094.png">
+		</div>
+		<div id="text095">
+			<img src="image/text095.png">
+		</div>
+	</div>
+	<div id="page10">
+		<img src="image/background4.png">
+		<div id="text101">
+			<img src="image/text101.png">
+		</div>
+		<div id="text102">
+			<img src="image/text102.png">
+		</div>
+		<div id="icon101">
+			<img src="image/icon101.png">
+		</div>
+		<div id="icon102">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon103">
+			<img src="image/icon102.png">
+		</div>
+	</div>
+	<div id="page11">
+		<img src="image/background4.png">
+		<div id="text111">
+			<img src="image/text111.png">
+		</div>
+		<div id="icon111">
+			<img src="image/icon111.png">
+		</div>
+	</div>
+	<div id="page12">
+		<img src="image/background4.png">
+		<div id="text121">
+			<img src="image/text121.png">
+		</div>
+		<div id="text122">
+			<img src="image/text122.png">
+		</div>
+		<div id="text123">
+			<img src="image/text123.png">
+		</div>
+		<div id="icon121">
+			<img src="image/icon121.png">
+		</div>
+		<div id="icon122">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon123">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon124">
+			<img src="image/icon102.png">
+		</div>
+	</div>
+	<div id="page13">
+		<img src="image/background4.png">
+		<div id="text131">
+			<img src="image/text131.png">
+		</div>
+		<div id="icon131">
+			<img src="image/icon131.png">
+		</div>
+		<div id="icon132">
+			<img src="image/icon132.png">
+		</div>
+	</div>
+	<div id="page14">
+		<img src="image/background4.png">
+		<div id="text141">
+			<img src="image/text141.png">
+		</div>
+		<div id="text142">
+			<img src="image/text142.png">
+		</div>
+		<div id="text143">
+			<img src="image/text143.png">
+		</div>
+		<div id="icon141">
+			<img src="image/icon141.png">
+		</div>
+		<div id="icon142">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon143">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon144">
+			<img src="image/icon102.png">
+		</div>
+	</div>
+	<div id="page15">
+		<img src="image/background4.png">
+		<div id="text151">
+			<img src="image/text151.png">
+		</div>
+		<div id="icon151">
+			<img src="image/icon151.png">
+		</div>
+		<div id="icon152">
+			<img src="image/icon102.png">
+		</div>
+	</div>
+	<div id="page16">
+		<img src="image/background4.png">
+		<div id="text161">
+			<img src="image/text161.png">
+		</div>
+		<div id="icon161">
+			<img src="image/icon111.png">
+		</div>
+	</div>
+	<div id="page17">
+		<img src="image/background4.png">
+		<div id="text171">
+			<img src="image/text171.png">
+		</div>
+		<div id="text172">
+			<img src="image/text172.png">
+		</div>
+		<div id="text173">
+			<img src="image/text173.png">
+		</div>
+		<div id="icon171">
+			<img src="image/icon171.png">
+		</div>
+		<div id="icon172">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon173">
+			<img src="image/icon102.png">
+		</div>
+		<div id="icon174">
+			<img src="image/icon102.png">
+		</div>
+	</div>
+	<div id="page18">
+		<img src="image/background4.png">
+		<div id="text181">
+			<img src="image/text131.png">
+		</div>
+		<div id="icon181">
+			<img src="image/icon181.png">
+		</div>
+		<div id="icon182">
+			<img src="image/icon132.png">
+		</div>
+	</div>
+	<div id="page19">
+		<img src="image/background4.png">
+		<div id="text191">
+			<img src="image/text191.png">
+		</div>
+		<div id="icon191">
+			<img src="image/icon191.png">
+		</div>
+		<div id="icon192">
+			<img src="image/icon102.png">
+		</div>
+	</div>
+	<div id="page20">
+		<img src="image/background4.png">
+		<div id="text201">
+			<img src="image/text201.png">
+		</div>
+		<div id="icon201">
+			<img src="image/icon201.png">
+		</div>
+		<div id="icon202">
+			<img src="image/icon202.png">
+		</div>
+	</div>
+	<script type="text/javascript" src="script/script.js"></script>
 </body>
 </html>
