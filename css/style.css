@@ -48,7 +48,7 @@ img{
 }
 #text021{
 	z-index: 2;
-	top:    18.4%;
+	top:     6.5%;
 	left:   58.2%;
 	width:  35.5%;
 	height: 46.9%;
@@ -90,10 +90,17 @@ img{
 }
 #icon026{
 	z-index: 2;
-	top:     0.3%;
+	top:    55.0%;
 	left:   70.0%;
-	width:  30.0%;
-	height:  7.0%;
+	width:    22%;
+	height: 10.0%;
+}
+#icon027{
+	z-index: 1;
+	top:     0.0%;
+	left:   40.0%;
+	width:  60.0%;
+	height: 46.9%;
 }
 #text031{
 	z-index: 1;
@@ -205,7 +212,7 @@ img{
 	top:    38.6%;
 	left:   30.2%;
 	width:  42.6%;
-	height:  4.0%;
+	height:  6.3%;
 }
 #text062{
 	z-index: 2;
@@ -303,6 +310,13 @@ img{
 	height: 26.5%;
 	display: none;
 }
+#icon086{
+	z-index: 2;
+	top:     5.5%;
+	left:    8.3%;
+	width:  16.1%;
+	height:  7.7%;
+}
 #text091,#text092,#text095{
 	z-index: 2;
 	top:    20.2%;
@@ -326,6 +340,13 @@ img{
 	width:  82.3%;
 	height: 47.1%;
 	display: none;
+}
+#icon096{
+	z-index: 2;
+	top:     5.5%;
+	left:    8.3%;
+	width:  16.1%;
+	height:  7.7%;
 }
 #text101{
 	z-index: 2;

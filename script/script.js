@@ -27,18 +27,19 @@ icon025.onclick = function () {
 	page7.style.display="block";
 }
 icon026.onclick = function () {
-	function part2(){
-		text081.style.display="none"
-		icon081.style.display="block"
-		icon082.style.display="block"
-		icon083.style.display="block"
-		icon084.style.display="block"
-		icon085.style.display="block"
-	}
+	// function part2(){
+	// 	text081.style.display="none"
+	// 	icon081.style.display="block"
+	// 	icon082.style.display="block"
+	// 	icon083.style.display="block"
+	// 	icon084.style.display="block"
+	// 	icon085.style.display="block"
+	// }
 	page2.style.display="none";
 	page8.style.display="block";
-	setTimeout(part2,3000)
+	// setTimeout(part2,8000)
 }
+
 icon032.onclick = function () {
 	page3.style.display="none";
 	page2.style.display="block";
@@ -67,7 +68,7 @@ icon062.onclick = function () {
 	page6.style.display="none";
 	page2.style.display="block";
 }
-icon033.onclick = function () {
+icon063.onclick = function () {
 	page6.style.display="none";
 	page2.style.display="block";
 }
@@ -83,35 +84,115 @@ icon081.onclick = function () {
 	page8.style.display="none";
 	page9.style.display="block";
 	text091.style.display="block"
+
+	text081.style.display="block"
+	icon081.style.display="none"
+	icon082.style.display="none"
+	icon083.style.display="none"
+	icon084.style.display="none"
+	icon085.style.display="none"
+	icon086.style.display="block"
+	// function auto(){
+	// 	page9.style.display="none";
+	// 	page10.style.display="block";
+	// 	text091.style.display="none"
+	// }
+	// setTimeout(auto,8000)
 }
 icon082.onclick = function () {
 	page8.style.display="none";
 	page9.style.display="block";
-	text092.style.display="block"
+	text092.style.display="block";
+
+	text081.style.display="block";
+	icon081.style.display="none";
+	icon082.style.display="none";
+	icon083.style.display="none";
+	icon084.style.display="none";
+	icon085.style.display="none";
+	icon086.style.display="block";
+	// function auto(){
+	// 	page9.style.display="none";
+	// 	page10.style.display="block";
+	// 	text092.style.display="none"
+	// }
+	// setTimeout(auto,8000)
 }
 icon083.onclick = function () {
 	page8.style.display="none";
 	page9.style.display="block";
-	text093.style.display="block"
+	text093.style.display="block";
+
+	text081.style.display="block";
+	icon081.style.display="none";
+	icon082.style.display="none";
+	icon083.style.display="none";
+	icon084.style.display="none";
+	icon085.style.display="none";
+	icon086.style.display="block";
+	// function auto(){
+	// 	page9.style.display="none";
+	// 	page10.style.display="block";
+	// 	text093.style.display="none"
+	// }
+	// setTimeout(auto,8000)
 }
 icon084.onclick = function () {
 	page8.style.display="none";
 	page9.style.display="block";
-	text094.style.display="block"
+	text094.style.display="block";
+
+	text081.style.display="block";
+	icon081.style.display="none";
+	icon082.style.display="none";
+	icon083.style.display="none";
+	icon084.style.display="none";
+	icon085.style.display="none";
+	icon086.style.display="block";
+	// function auto(){
+	// 	page9.style.display="none";
+	// 	page10.style.display="block";
+	// 	text094.style.display="none"
+	// }
+	// setTimeout(auto,8000)
 }
 icon085.onclick = function () {
 	page8.style.display="none";
 	page9.style.display="block";
-	text095.style.display="block"
+	text095.style.display="block";
+
+	text081.style.display="block";
+	icon081.style.display="none";
+	icon082.style.display="none";
+	icon083.style.display="none";
+	icon084.style.display="none";
+	icon085.style.display="none";
+	icon086.style.display="block";
+	// function auto(){
+	// 	page9.style.display="none";
+	// 	page10.style.display="block";
+	// 	text095.style.display="none"
+	// }
+	// setTimeout(auto,8000)
 }
-page9.onclick = function () {
+icon086.onclick = function () {
+	text081.style.display="none";
+	icon081.style.display="block";
+	icon082.style.display="block";
+	icon083.style.display="block";
+	icon084.style.display="block";
+	icon085.style.display="block";
+	icon086.style.display="none";
+}
+
+icon096.onclick = function () {
 	page9.style.display="none";
 	page10.style.display="block";
-	text091.style.display="none"
-	text092.style.display="none"
-	text093.style.display="none"
-	text094.style.display="none"
-	text095.style.display="none"
+	text091.style.display="none";
+	text092.style.display="none";
+	text093.style.display="none";
+	text094.style.display="none";
+	text095.style.display="none";
 }
 icon102.onclick = function () {
 	page10.style.display="none";
@@ -235,7 +316,7 @@ text181.onclick = function () {
 }
 icon192.onclick = function () {
 	page19.style.display="none";
-	cover.style.display="block";
+	page20.style.display="block";
 }
 text191.onclick = function () {
 	page19.style.display="none";
